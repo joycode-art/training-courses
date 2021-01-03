@@ -1,5 +1,6 @@
 # Summary
 
+* [Introduction](README.md)
 * [面向对象设计训练营](object-oriented-design.md)
 * [演进式设计训练营](evolutionary-design.md)
 * [重构训练营](refactoring.md)
@@ -14,4 +15,5 @@
 * [DCI架构](dci-architecture.md)
 * [微服务设计](micro-service.md)
 * [深度学习理论与工程实践训练营](deep-learning.md)
+* [嵌入式系统软件性能优化](performance-optimization.md)
 
