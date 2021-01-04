@@ -8,14 +8,14 @@
     "root": ".",
     "links": {
         "sidebar": {
-            "博客": "https://github.com/joycode-art"
+            "Github": "https://github.com/joycode-art/training-courses"
         }
     },
     "plugins": [
         "code",
         "-search",
         "search-pro",
-        "-github",
+        "github",
         "splitter",
         "tbfed-pagefooter",
         "-donate",
@@ -36,9 +36,7 @@
             "copyButtons": true
         },
         "tbfed-pagefooter": {
-            "copyright": "Copyright © CCOCK 2020",
-            "modify_label": "本书发布时间：",
-            "modify_format": "YYYY-MM-DD HH:mm:ss"
+            "copyright": "Copyright © joycode 2021"
         },
         "prism": {
             "css": [
