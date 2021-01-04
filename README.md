@@ -1,6 +1,6 @@
 ## Training Courses
 
-**Visit resume: https://joycode-art.github.io/training-courses**
+**Visit : https://joycode-art.github.io/training-courses**
 
 ### build your own
 
