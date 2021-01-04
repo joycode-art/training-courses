@@ -29,3 +29,7 @@
   - 操作系统：Windows，Linux或者MAC均可
   - IDE： VSCode，ecplise，IDEA均可
   - 其它： 提前安装构建环境，另外掌握单元测试框架的用法：例如C++推荐gtest，Java推荐JUnit或其它xUnit框架均可；
+
+## 培训历史
+
+描述该培训在哪些客户有过培训，培训做过何种裁剪和修改；
