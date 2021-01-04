@@ -1,4 +1,6 @@
-## Quick Start
+## Training Courses
+
+**Visit resume: https://joycode-art.github.io/training-courses**
 
 ### install nodejs
 
