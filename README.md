@@ -1,96 +1,17 @@
-## Training Courses
+## 培训课程
 
-**Visit : https://joycode-art.github.io/training-courses**
-
-### build your own
-
-#### install nodejs
-
-```sh
-sudo apt-get install nodejs
-sudo apt-get install npm
-```
-
-upgrade:
-
-```sh
-sudo npm install npm -g
-npm install –g n stable
-```
-
-modify repo:
-
-```sh
-npm get registry 
-npm config set registry http://registry.npm.taobao.org/
-# npm config set registry https://registry.npmjs.org/
-```
-
-#### install gitbook
-
-```sh
-npm install gitbook-cli -g
-gitbook -V
-```
-
-#### install plugins
-
-```sh
-gitbook install
-```
-
-#### review book
-
-```sh
-gitbook serve
-```
-
-#### publish book to github pages
-
-```sh
-rm -rf docs
-gitbook build
-mv _book docs
-git add ./docs
-git commit -m "publish book"
-git push
-```
-
-#### generate book
-
-##### install ebook converter
-
-- download Calibre: https://calibre-ebook.com/download
-- install Calibre
-- config Calibre
-
-
-MACOS:
-
-```sh
-sudo ln -s ~/Applications/calibre.app/Contents/MacOS/ebook-convert /usr/bin
-```
-
-Or:
-
-```sh
-vi ~/.bash_profile
-
-export EBOOK_PATH=/Applications/calibre.app/Contents/MacOS
-export PATH=$PATH:$EBOOK_PATH 
-
-source .bash_profile
-```
-
-##### generate pdf
-
-```sh
-gitbook pdf
-```
-
-#####  generate epub
-
-```sh
-gitbook epub
-```
-
+* [面向对象设计训练营](object-oriented-design.md)
+* [演进式设计训练营](evolutionary-design.md)
+* [重构训练营](refactoring.md)
+* [组合式设计训练营](composite-design.md)
+* [并发与异步编程](concurrency-asynchrony.md)
+* [多范式设计训练营](programming-paradigm.md)
+* [大型嵌入式系统的C++设计与实现](embedded-cpp.md)
+* [系统级编程语言训练营](system-programming-languages.md)
+* [大型遗留系统的开发者测试实践](developer-test.md)
+* [系统编程的构建系统设计](building-system-design.md)
+* [领域驱动设计训练营](domain-driven-design.md)
+* [DCI架构](dci-architecture.md)
+* [微服务设计](micro-service.md)
+* [深度学习理论与工程实践训练营](deep-learning.md)
+* [嵌入式系统软件性能优化](performance-optimization.md)
