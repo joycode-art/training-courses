@@ -1,10 +1,6 @@
-## Training Courses
+## build your own
 
-**Visit : https://joycode-art.github.io/training-courses**
-
-### build your own
-
-#### install nodejs
+### install nodejs
 
 ```sh
 sudo apt-get install nodejs
@@ -26,26 +22,26 @@ npm config set registry http://registry.npm.taobao.org/
 # npm config set registry https://registry.npmjs.org/
 ```
 
-#### install gitbook
+### install gitbook
 
 ```sh
 npm install gitbook-cli -g
 gitbook -V
 ```
 
-#### install plugins
+### install plugins
 
 ```sh
 gitbook install
 ```
 
-#### review book
+### review book
 
 ```sh
 gitbook serve
 ```
 
-#### publish book to github pages
+### publish book to github pages
 
 ```sh
 rm -rf docs
@@ -56,9 +52,9 @@ git commit -m "publish book"
 git push
 ```
 
-#### generate book
+### generate book
 
-##### install ebook converter
+#### install ebook converter
 
 - download Calibre: https://calibre-ebook.com/download
 - install Calibre
@@ -82,13 +78,13 @@ export PATH=$PATH:$EBOOK_PATH
 source .bash_profile
 ```
 
-##### generate pdf
+#### generate pdf
 
 ```sh
 gitbook pdf
 ```
 
-#####  generate epub
+####  generate epub
 
 ```sh
 gitbook epub
