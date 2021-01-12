@@ -16,4 +16,5 @@
 * [微服务设计](micro-service.md)
 * [深度学习理论与工程实践训练营](deep-learning.md)
 * [嵌入式系统软件性能优化](performance-optimization.md)
+* [gitbook usage](gitbook.md)
 
